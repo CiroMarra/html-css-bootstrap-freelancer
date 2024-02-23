@@ -26,3 +26,16 @@
     border-radius: 10px;
 
 }
+
+.ms-padding {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.ms-btn-color {
+    background-color: #1abc9c;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
