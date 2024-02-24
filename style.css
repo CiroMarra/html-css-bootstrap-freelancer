@@ -15,17 +15,43 @@
     max-width: 20%;
 }
 
-.ms-bar {
-    width: 30px;
-    height: 4px;
-    background-color: white;
+.ms-barra {
+    width: 100%;
+    max-width: 7rem;
+    height: 0.25rem;
+    background-color: #2c3e50;
+    border-radius: 1rem;
+    border-color: #2c3e50;
+
 }
+
+.ms-barra-white {
+    background-color: white;
+    border-color: white;
+}
+
+.ms-barra-c {
+    margin: 1.25rem 0 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ms-star {
+    font-size: 40px;
+    padding: 0px 20px;
+}
+
 
 .ms-portfolio img {
     max-width: 100%;
     border-radius: 10px;
 
 }
+
+
 
 .ms-padding {
     padding-left: 80px;
