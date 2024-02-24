@@ -2,7 +2,6 @@
     max-width: 100%;
 }
 
-
 .ms-background_color {
     background-color: #3a546d;
 }
@@ -38,20 +37,21 @@
     align-items: center;
 }
 
-
 .ms-star {
     font-size: 40px;
     padding: 0px 20px;
 }
 
 
-.ms-portfolio img {
+.card img {
     max-width: 100%;
     border-radius: 10px;
 
 }
 
-
+ .ms-card {
+    border: none;
+}
 
 .ms-padding {
     padding-left: 80px;
