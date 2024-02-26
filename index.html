@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="sticky-top">
+    <header class="fixed-top">
         <nav class="navbar navbar-expand-lg ms-background-n" data-bs-theme="dark">
             <div class="container">
               <a class="navbar-brand" href="#"><h3>START BOOTSTRAP</h3></a>
@@ -18,12 +18,12 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li> <a class="nav-link" href="#">PORTFOLIO</a></li>
-                    <li> <a class="nav-link" href="#">ABOUT</a></li>
-                    <li> <a class="nav-link" href="#">CONTACT</a></li>
+                    <li> <a class="nav-link" href="#portfolio">PORTFOLIO</a></li>
+                    <li> <a class="nav-link" href="#about">ABOUT</a></li>
+                    <li> <a class="nav-link" href="#contact">CONTACT</a></li>
                 </ul>
             </div>
-          </nav>
+        </nav>
     </header>
     <main>
         <section class="ms-background_main text-center text-white py-2">
@@ -37,11 +37,11 @@
             <i class="fa-solid fa-star ms-star"></i>
             <div class="ms-barra ms-barra-white "></div>
         </div>
-        <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+        <h5>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h5>
       </div>
     </section>
       
-      <section class="ms-portfolio" >
+      <section class="ms-portfolio" id="portfolio">
         <div class="container text-center py-5">
             <h1>PORTFOLIO</h1>
             <div class="ms-barra-c py-2">
@@ -49,46 +49,64 @@
                 <i class="fa-solid fa-star ms-star"></i>
                 <div class="ms-barra"></div>
             </div>
-            <div class="row py-5">
+            <div class="row py-5 ">
                 <div class="col-12 col-md-6 col-lg-4 py-2">
-                    <div class="card ms-card">
+                    <div class="card ms-card d-flex  position-relative">
                         <img src="img/cabin.png" alt="cabin">
+                        <div class="overlay">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 py-2">
-                    <div class="card ms-card">
+                    <div class="card ms-card d-flex  position-relative">
                         <img src="img/cake.png" alt="cake">
+                        <div class="overlay">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
                     </div>
                     
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 py-2">
-                    <div class="card ms-card">
+                    <div class="card ms-card d-flex  position-relative">
                         <img src="img/circus.png" alt="circus">
+                        <div class="overlay">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
                     </div>
                    
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 py-2">
-                    <div class="card ms-card">
+                    <div class="card ms-card d-flex  position-relative">
                         <img src="img/game.png" alt="game">
+                        <div class="overlay">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
                     </div>
                     
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 py-2">
-                    <div class="card ms-card">
+                    <div class="card ms-card d-flex  position-relative">
                         <img src="img/safe.png" alt="safe">
+                        <div class="overlay">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
                     </div>
                     
                 </div>
                 <div class="col-12 col-md-6 col-lg-4 py-2">
-                    <div class="card ms-card">
+                    <div class="card ms-card d-flex  position-relative">
                         <img src="img/submarine.png" alt="submarine">
+                        <div class="overlay">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
                     </div>
                   
                 </div>
             </div>
         </div>
       </section>
-      <section class="ms-about ms-background_main text-white py-5">
+      <section class="ms-about ms-background_main text-white py-5" id="about">
         <div class="container text-center ms-padding">
             <h1>ABOUT</h1>
             <div class="ms-barra-c">
@@ -109,7 +127,7 @@
         </div>
       </section>
 
-      <section class="contact py-2 text-center">
+      <section class="contact py-2 text-center" id="contact">
         <div class="container ms-padding py-5">
             <h1>CONTACT ME</h1>
             <div class="ms-barra-c">
