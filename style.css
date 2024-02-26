@@ -1,6 +1,6 @@
 
 html {
-    scroll-padding-top: 4rem;
+    scroll-padding-top: 2rem;
 }
 
 .nav-link {
@@ -63,25 +63,6 @@ html {
 
 }
 
-.overlay:hover {
-    display: flex;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    max-height: 100%;
-    max-width: 100%;
-    opacity: 1;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-    color: white;
-    font-size: 80px;
-    background-color: rgba(26,188,156, 0.5);
-    border-radius: 10px;
-
-}
 
 .overlay {
     display: flex;
@@ -95,9 +76,15 @@ html {
     opacity: 0;
     justify-content: center;
     align-content: center;
-    flex-wrap: wrap;
     color: white;
     font-size: 80px;
+    border-radius: 10px;
+}
+
+.overlay:hover {
+    opacity: 1;
+    flex-wrap: wrap;
+    background-color: rgba(26,188,156, 0.5);
     border-radius: 10px;
 
 }
